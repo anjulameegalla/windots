@@ -1,0 +1,10 @@
+// Add below command line argument to PowerShell terminal in settings.json to suppress the logo.
+
+
+"terminal.integrated.profiles.windows": {
+   "PowerShell": {
+       "source": "PowerShell",
+       "args": ["-noLogo"]
+   }
+},
+"terminal.integrated.defaultProfile.windows": "PowerShell"
